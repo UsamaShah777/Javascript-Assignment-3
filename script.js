@@ -188,3 +188,25 @@ var products = [
 // console.log("Total Quantity: " +sq)
 
 // -----------------------------Q 4 done---------------------
+
+// 5. Filter Products with Low Stock
+// Write a program that prints products where at least one variation has a quantity of less than 2
+// Output:
+// Sony LED 40 inch
+// Mobile
+// Bike
+
+// var sq=0;
+// for(var su=0; su < products.length; su++){
+//   for (var nsu =0; nsu< products[su].variations.length; nsu++ ){
+//     sq=sq + products[su].variations[nsu].quantity;
+//     if(products[su].variations[nsu].quantity<2){
+//       console.log(products[su].title)
+//     }
+//   }
+
+// }
+
+// -----------------------Q 5 Done-------------------------
+
+
