@@ -147,11 +147,25 @@ var products = [
 // Bike
 
 
-for ( var a=0; a<products.length; a++){
-      console.log(products[a].title)
-}
+// for ( var a=0; a<products.length; a++){
+//       console.log(products[a].title)
+// }
 
 
 // -----------------------------Q 2 done------------------------
 
 
+// 3. Find Available Colors of a Product
+// Given a product ID, print all available colors.
+// Output:
+// black
+// red
+// silver
+
+// for (var c = 0; c < products.length; c++) {
+//   for (var n = 0; n < products[c].variations.length; n++) {
+//       console.log(products[c].variations[n].color);
+//   }
+// }
+
+// ----------------------Q 3 done-----------------
