@@ -90,6 +90,7 @@ var products = [
         { id: 2, color: "red", price: 50000, quantity: 1 },
         { id: 3, color: "silver", price: 55000, quantity: 8 },
         { id: 4, color: "silver", price: 55000, quantity: 8 },
+        { id: 4, color: "silver", price: 55000, quantity: 10 },
       ],
       reviews: [
         {
@@ -169,3 +170,19 @@ var products = [
 // }
 
 // ----------------------Q 3 done-----------------
+
+// 4. Get Total Quantity of a Product
+// Write a program that calculates and prints the total quantity of all variations of a given product.
+// Output:
+// Total Quantity: 14
+
+
+var sq=0;
+for(var su=0; su < products.length; su++){
+  for (var nsu =0; nsu< products[su].variations.length; nsu++ ){
+    sq=sq + products[su].variations[nsu].quantity;
+  }
+
+}
+
+console.log("Total Quantity: " +sq)
