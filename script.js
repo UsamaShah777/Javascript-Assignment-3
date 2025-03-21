@@ -128,12 +128,30 @@ var products = [
 // }
 
 
-  var productId = 102;
-for(var i=0;i<products.length;i++){
-    if (products[i].id === productId) {
+//   var productId = 102;
+// for(var i=0;i<products.length;i++){
+//     if (products[i].id === productId) {
 
-      console.log(products[i]);
+//       console.log(products[i]);
     
-  }
-}
+//   }
+// }
 // ---------------------------Q 1 Done---------------------------
+
+
+// 2. List All Product Titles
+// Write a program that prints all product titles.
+// Output:
+// Sony LED 40 inch
+// Mobile
+// Bike
+
+
+for ( var a=0; a<products.length; a++){
+      console.log(products[a].title)
+}
+
+
+// -----------------------------Q 2 done------------------------
+
+
