@@ -177,12 +177,14 @@ var products = [
 // Total Quantity: 14
 
 
-var sq=0;
-for(var su=0; su < products.length; su++){
-  for (var nsu =0; nsu< products[su].variations.length; nsu++ ){
-    sq=sq + products[su].variations[nsu].quantity;
-  }
+// var sq=0;
+// for(var su=0; su < products.length; su++){
+//   for (var nsu =0; nsu< products[su].variations.length; nsu++ ){
+//     sq=sq + products[su].variations[nsu].quantity;
+//   }
 
-}
+// }
 
-console.log("Total Quantity: " +sq)
+// console.log("Total Quantity: " +sq)
+
+// -----------------------------Q 4 done---------------------
